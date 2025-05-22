@@ -1,0 +1,2 @@
+Link to dataset: https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data
+Link to deployment: https://huggingface.co/spaces/bagusrifky7/P1M2_bagus_rifky

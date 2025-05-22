@@ -1,0 +1,18 @@
+1. Jelaskan latar belakang adanya bagging dan cara kerja bagging !
+
+Bagging merupakan salah satu ensemble learning dengan cara kerja dimana data akan di train dengan banyak model. Dari beberapa model tersebut akan dilakukan voting
+untuk klasifikasi dan rata-rata untuk regresi. Latar belakang adanya bagging adalah kekhawatiran prediksi model pada data dengan variasi yang tinggi, sehingga metode
+ini diterapkan untuk mengurangi hal tersebut. Random Forest merupakan salah satu contoh dari algoritma bagging, dimana setiap model independennya merupakan decision
+trees
+
+2. Jelaskan perbedaan cara kerja algoritma Random Forest dengan algoritma boosting yang Anda pilih !
+
+Algoritma boosting yang saya pilih adalah AdaBoost dengan base algoritma dari AdaBoost tersebut. Base algoritma dari AdaBoost adalah Decision Tree. Perbedaanya adalah
+Boosting melakukan beberapa iterasi dengan model yang saya pilih yaitu Decision Tree, dengan cara memperbaiki setiap iterasi model saat hasilnya keluar setiap iterasinya. 
+Berbeda dengan Random Forest yang bekerja dengan cara seperti algoritma bagging, yaitu melakukan voting untuk klasifikasi dan rata-rata untuk regrei pada setiap iterasi.
+
+
+3. Jelaskan apa yang dimaksud dengan Cross Validation !
+
+Cross validation adalah teknik uji hasil machine learning untuk mengetahui apakah hasil suatu model konsisten atau tidak. Cara kerjanya adalah dengan membagi-bagi data sama 
+dengan split train dan test, namun ini uji berulang-ulang dengan set tes (bisa disebut fold) yang berbeda tiap pengujiannya.
