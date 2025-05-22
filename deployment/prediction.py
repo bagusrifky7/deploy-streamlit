@@ -1,13 +1,13 @@
 # import libraries
 import pandas as pd
 import streamlit as st
-import pickle
+import joblib
 
 def run():
 
     # import model
-    with open('model.pkl', 'rb') as file:
-        model = pickle.load(file)
+    with open('model_test.joblib', 'rb') as file:
+        model = joblib.load(file)
 
     # variable for customer information
     age = st.number_input(label = 'Input customers\' age:', min_value = 0.0)
