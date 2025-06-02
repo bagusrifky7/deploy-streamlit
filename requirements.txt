@@ -5,4 +5,4 @@ seaborn
 tensorflow==2.16.2
 Pillow
 scikit-learn
-python==3.9.21
+python==3.11
