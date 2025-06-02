@@ -1,7 +1,8 @@
 streamlit
-pandas
-numpy
+pandas==2.2.3
+numpy==2.0.2
 seaborn
-tensorflow
+tensorflow==2.16.2
 Pillow
 scikit-learn
+python==3.9.21
