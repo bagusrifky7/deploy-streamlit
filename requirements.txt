@@ -2,6 +2,6 @@ streamlit
 pandas
 numpy
 seaborn
-tensorflow==2.16.2
+tensorflow
 Pillow
 scikit-learn
