@@ -1,0 +1,5 @@
+pandas
+streamlit
+tensorflow == 2.16.2
+numpy
+seaborn
