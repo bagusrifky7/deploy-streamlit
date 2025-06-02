@@ -14,7 +14,6 @@ def run():
     text = st.text_area(label = "Masukkan contoh review pelanggan")
 
     # membuat variabel untuk dataframe
-    text = [text]
     data = pd.Series([text], name = 'review_text') 
     df = data.copy()
     
